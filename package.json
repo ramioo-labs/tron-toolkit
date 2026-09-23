@@ -1,0 +1,16 @@
+{
+  "name": "tron-toolkit",
+  "version": "0.1.0",
+  "description": "Small TRON/web3 helper utilities",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test test/amount.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
